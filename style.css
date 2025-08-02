@@ -255,3 +255,55 @@ section {
 .btn-container {
     gap: 1rem;
 }
+
+/* ABOUT ME SECTION */
+
+#about {
+    position: relative;
+}
+
+.section__text__p1 {
+    font-size: 2rem;
+    font-weight: 8000;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10rem;
+    margin: auto;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 3rem;
+    margin-top: 33px;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 1633, 163);
+    text-align: center;
+}
