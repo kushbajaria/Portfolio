@@ -285,11 +285,17 @@ section {
 .about-containers,
 .about-details-container {
     display: flex;
+    margin-top: 60px;
 }
 
 .about-pic {
     border-radius: 3rem;
-    margin-top: 33px;
+}
+
+.text-container {
+    align-self: center;
+    text-align: center;
+    margin-top: -150px;
 }
 
 .arrow {
@@ -306,4 +312,15 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 1633, 163);
     text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
 }
