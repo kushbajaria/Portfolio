@@ -295,7 +295,8 @@ section {
 .text-container {
     align-self: center;
     text-align: center;
-    margin-top: -150px;
+    margin-top: -160px;
+    word-spacing: 2px;
 }
 
 .arrow {
